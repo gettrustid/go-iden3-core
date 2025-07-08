@@ -2,8 +2,8 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/iden3/go-iden3-core.svg)](https://pkg.go.dev/github.com/iden3/go-iden3-core)
 [![Go Report Card](https://goreportcard.com/badge/github.com/iden3/go-iden3-core)](https://goreportcard.com/report/github.com/iden3/go-iden3-core)
-[![Test](https://github.com/iden3/go-iden3-core/actions/workflows/test.yaml/badge.svg)](https://github.com/iden3/go-iden3-core/actions/workflows/test.yaml)
-[![Lint](https://github.com/iden3/go-iden3-core/actions/workflows/lint.yaml/badge.svg)](https://github.com/iden3/go-iden3-core/actions/workflows/lint.yaml)
+[![Test](https://github.com/gettrustid/go-iden3-core/actions/workflows/test.yaml/badge.svg)](https://github.com/gettrustid/go-iden3-core/actions/workflows/test.yaml)
+[![Lint](https://github.com/gettrustid/go-iden3-core/actions/workflows/lint.yaml/badge.svg)](https://github.com/gettrustid/go-iden3-core/actions/workflows/lint.yaml)
 
 Low level API to create and manipulate iden3 claims and identifiers.
 

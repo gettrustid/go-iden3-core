@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/iden3/go-iden3-core/v2/w3c"
+	"github.com/gettrustid/go-iden3-core/v2/w3c"
 )
 
 // ChainID is alias for int32 that represents ChainID

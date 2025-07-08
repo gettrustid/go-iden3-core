@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/iden3/go-iden3-core/v2/w3c"
+	"github.com/gettrustid/go-iden3-core/v2/w3c"
 	"github.com/stretchr/testify/require"
 )
 
