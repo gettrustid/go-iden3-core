@@ -66,6 +66,8 @@ const (
 	Privado Blockchain = "privado"
 	// Billions is Billions blockchain network
 	Billions Blockchain = "billions"
+	// TrustId is TrustId blockchain network
+	TrustId Blockchain = "trust-id"
 	// Linea is Linea blockchain network
 	Linea Blockchain = "linea"
 	// UnknownChain is used when it's not possible to retrieve blockchain type from identifier
@@ -81,6 +83,7 @@ var blockchains = map[Blockchain]Blockchain{
 	Polygon:      Polygon,
 	Privado:      Privado,
 	Billions:     Billions,
+	TrustId:      TrustId,
 	Linea:        Linea,
 	UnknownChain: UnknownChain,
 	ReadOnly:     ReadOnly,
@@ -221,6 +224,9 @@ var blockchainNetworkMap = map[DIDNetworkFlag]byte{
 
 	{Blockchain: Billions, NetworkID: Main}: 0b1011_0000 | 0b0000_0001,
 	{Blockchain: Billions, NetworkID: Test}: 0b1011_0000 | 0b0000_0010,
+
+	{Blockchain: TrustId, NetworkID: Main}: 0b11000000 | 0b00000001,
+	{Blockchain: TrustId, NetworkID: Test}: 0b11000000 | 0b00000010,
 
 	{Blockchain: Linea, NetworkID: Main}:    0b0100_0000 | 0b0000_1001,
 	{Blockchain: Linea, NetworkID: Sepolia}: 0b0100_0000 | 0b0000_1000,

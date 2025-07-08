@@ -230,6 +230,20 @@ func TestDID_Build_From_Types(t *testing.T) {
 			wantDID: "did:iden3:billions:test:2VxnoiNqdMPxUigcPf9LTfZdz7jSwQv8YscTjjH5zf",
 		},
 		{
+			title:   "PolygonId | TrustId chain, main",
+			method:  DIDMethodPolygonID,
+			chain:   TrustId,
+			net:     Main,
+			wantDID: "did:polygonid:trust-id:main:3SGFfs7D37wQ2rwKboTdxUdSsHR3qxxSE9r3wSeEPR",
+		},
+		{
+			title:   "PolygonId | TrustId chain, test",
+			method:  DIDMethodPolygonID,
+			chain:   TrustId,
+			net:     Test,
+			wantDID: "did:polygonid:trust-id:test:3STsj3dKxvm2Wb8WEsZGctmooQWm4nb3PiSLyQsNCF",
+		},
+		{
 			title:   "Iden3 | Linea, Main",
 			method:  DIDMethodIden3,
 			chain:   Linea,
