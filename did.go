@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/gettrustid/go-iden3-core/v2/w3c"
+	"github.com/iden3/go-iden3-core/v2/w3c"
 )
 
 var (
