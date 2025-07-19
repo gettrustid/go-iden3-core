@@ -225,8 +225,8 @@ var blockchainNetworkMap = map[DIDNetworkFlag]byte{
 	{Blockchain: Billions, NetworkID: Main}: 0b1011_0000 | 0b0000_0001,
 	{Blockchain: Billions, NetworkID: Test}: 0b1011_0000 | 0b0000_0010,
 
-	{Blockchain: TrustId, NetworkID: Main}: 0b11000000 | 0b00000001,
-	{Blockchain: TrustId, NetworkID: Test}: 0b11000000 | 0b00000010,
+	{Blockchain: TrustId, NetworkID: Main}: 0b1100_0000 | 0b0000_0001,
+	{Blockchain: TrustId, NetworkID: Test}: 0b1100_0000 | 0b0000_0010,
 
 	{Blockchain: Linea, NetworkID: Main}:    0b0100_0000 | 0b0000_1001,
 	{Blockchain: Linea, NetworkID: Sepolia}: 0b0100_0000 | 0b0000_1000,

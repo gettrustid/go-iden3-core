@@ -36,8 +36,8 @@ var chainIDs = map[chainIDKey]ChainID{
 	{Privado, Test}:     21001,
 	{Billions, Main}:    45056,
 	{Billions, Test}:    6913,
-	{TrustId, Main}:     2005,
-	{TrustId, Test}:     2004,
+	{TrustId, Main}:     87878,
+	{TrustId, Test}:     87877,
 	{Linea, Main}:       59144,
 	{Linea, Sepolia}:    59141,
 }
